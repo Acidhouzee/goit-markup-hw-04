@@ -192,7 +192,7 @@ body {
 .solution {
     position: relative;
     padding: 192px 0;
-    background: url(/images/office.jpg);
+    background: url(../images/office.jpg);
     background-size: cover;
 }
 
