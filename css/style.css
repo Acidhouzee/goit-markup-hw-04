@@ -377,7 +377,8 @@ body {
     transition: .3s all ease;
 }
 
-.customers .customers-list .customers-item .customers-item-link:hover {
+.customers .customers-list .customers-item .customers-item-link:hover,
+.customers .customers-list .customers-item .customers-item-link:focus {
     border-color: var(--accent-color);
 }
 
@@ -386,7 +387,8 @@ body {
     fill: var(--theme-grey-color);
 }
 
-.customers .customers-list .customers-item .customers-item-link:hover .link-icon {
+.customers .customers-list .customers-item .customers-item-link:hover .link-icon,
+.customers .customers-list .customers-item .customers-item-link:focus .link-icon {
     fill: var(--accent-color);
 }
 
