@@ -346,7 +346,8 @@ body {
     transition: .3s all ease;
 }
 
-.team-social-icons .social-icons-list .social-icons .social-link:hover {
+.team-social-icons .social-icons-list .social-icons .social-link:hover,
+.team-social-icons .social-icons-list .social-icons .social-link:focus {
     background: var(--active-button-color);
 }
 
@@ -524,7 +525,8 @@ body {
     transition: .3s all ease;
 }
 
-.footer-social-icons .social-icons-list .social-icons .social-link:hover {
+.footer-social-icons .social-icons-list .social-icons .social-link:hover,
+.footer-social-icons .social-icons-list .social-icons .social-link:focus {
     background: var(--theme-green-color);
 }
 
