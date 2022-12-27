@@ -203,6 +203,8 @@ body {
     padding: 192px 0;
     background: url(../images/office.jpg);
     background-size: cover;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .solution::before {
@@ -434,7 +436,7 @@ body {
 }
 .tab-item .tab-btn.active,
 .tab-item .tab-btn:hover,
-.tab-item .tab-btn:active {
+.tab-item .tab-btn:focus {
     color: var(--inverse-text-color);
     background: var(--accent-color);
     border-color: var(--accent-color);
